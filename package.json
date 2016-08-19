@@ -1,0 +1,44 @@
+{
+  "name": "slice-foo",
+  "version": "0.0.0",
+  "description": "Slices foo any way you'd like",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava tests.js",
+    "test:watch": "npm run test -- --watch"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sseppola/slice-foo.git"
+  },
+  "keywords": [
+    "string",
+    "slice",
+    "sliceWith",
+    "sliceWithGenerator"
+    "slicer",
+    "split",
+    "splitter",
+    "chuncks",
+    "chuncker",
+    "chop",
+    "chopper",
+    "generator",
+    "metasyntactic"
+  ],
+  "author": "Sindre Seppola <sindre.seppola@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sseppola/slice-foo/issues"
+  },
+  "homepage": "https://github.com/sseppola/slice-foo#readme",
+  "devDependencies": {
+    "ava": "^0.16.0"
+  },
+  "dependencies": {
+    "lodash.curry": "^4.1.1"
+  }
+}
