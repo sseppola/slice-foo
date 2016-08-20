@@ -1,6 +1,6 @@
 {
   "name": "slice-foo",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Slices foo any way you'd like",
   "main": "index.js",
   "scripts": {
