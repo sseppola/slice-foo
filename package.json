@@ -6,7 +6,7 @@
   "scripts": {
     "test": "ava tests.js",
     "test:watch": "npm run test -- --watch",
-    "postinstall": "node_modules/babel-cli/bin/babel.js src --out-dir lib",
+    "pretest": "node_modules/babel-cli/bin/babel.js src --out-dir lib",
     "compile": "node_modules/babel-cli/bin/babel.js src --out-dir lib"
   },
   "engines": {
